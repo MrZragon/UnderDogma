@@ -38,4 +38,17 @@ public enum CharacterStatus
 
     Poisoning,//中毒
     Burning,//燃烧
+    //有待补充
+}
+
+
+/// <summary>
+/// 伤害类型
+/// </summary>
+public enum DamageType
+{
+    Normal,//常规
+    TrueDamage,//真实伤害（无视护盾）
+    PassiveInjury,//被动伤害
+    //有待补充
 }
