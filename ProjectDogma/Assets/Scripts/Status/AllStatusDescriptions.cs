@@ -52,3 +52,14 @@ public enum DamageType
     PassiveInjury,//被动伤害
     //有待补充
 }
+
+
+/// <summary>
+/// 卡牌类型
+/// </summary>
+public enum CardType
+{
+    Sky,
+    Earth,
+    Person
+}
