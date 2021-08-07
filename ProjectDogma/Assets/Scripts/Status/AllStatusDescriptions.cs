@@ -1,6 +1,7 @@
 
 //这个脚本包含了战斗中所有可见单位的状态
 
+
 /// <summary>
 /// 战斗地图网格单位状态
 /// </summary>
@@ -59,7 +60,7 @@ public enum DamageType
 /// </summary>
 public enum CardType
 {
-    Sky,
-    Earth,
-    Person
+    Sky,//天
+    Earth,//地
+    Person//人
 }
